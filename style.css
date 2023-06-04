@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(242, 234, 226);
+}
+
+.box1{
+    width: 90%;
+    margin:auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#img1{
+    width: 100%;
+}
+
+.text_container{
+    padding: 15px;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(61, 129, 104);
+    margin-right: 10px;
+}
+
+.button_cart{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(61, 129, 104);
+    color: white;
+
+
+}
+
+.price_container{
+    display: flex;
+    align-items: center;
+
+}
+
+.price_discount{
+    text-decoration: line-through;
+}
